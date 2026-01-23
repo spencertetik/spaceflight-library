@@ -1,0 +1,43 @@
+name: Update Space Stats
+
+on:
+  schedule:
+    # Runs every 12 hours at midnight and noon UTC
+    - cron: '0 0,12 * * *'
+  workflow_dispatch: # Allow manual trigger from GitHub UI
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch latest space stats
+        run: node update_stats.cjs
+        continue-on-error: false
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code src/api-snapshot.json || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add src/api-snapshot.json
+          git commit -m "chore: update space stats [skip ci]"
+          git push

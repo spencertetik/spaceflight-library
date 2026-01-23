@@ -1,0 +1,61 @@
+{
+    "lastUpdated": "2026-01-23T12:00:00Z",
+    "launches": {
+        "total": 12,
+        "success": 11,
+        "failure": 1,
+        "spacex": 9,
+        "list": [
+            {
+                "id": "mock-1",
+                "name": "Falcon 9 Block 5 | Starlink Group 12-1",
+                "net": "2026-01-02T10:00:00Z",
+                "lsp_name": "SpaceX",
+                "status": {
+                    "abbrev": "Success"
+                },
+                "mission": {
+                    "description": "Batch of Starlink satellites."
+                }
+            },
+            {
+                "id": "mock-2",
+                "name": "Long March 2C | Einsteins Probe",
+                "net": "2026-01-09T07:00:00Z",
+                "lsp_name": "CASC",
+                "status": {
+                    "abbrev": "Success"
+                },
+                "mission": {
+                    "description": "X-ray astronomy satellite."
+                }
+            },
+            {
+                "id": "mock-3",
+                "name": "Falcon 9 Block 5 | Starlink Group 12-2",
+                "net": "2026-01-14T12:00:00Z",
+                "lsp_name": "SpaceX",
+                "status": {
+                    "abbrev": "Success"
+                },
+                "mission": {
+                    "description": "Batch of Starlink satellites."
+                }
+            }
+        ]
+    },
+    "humans": {
+        "total": 7,
+        "people": [
+            {
+                "id": "mock-p1",
+                "name": "Nick Hague",
+                "nationality": "American",
+                "agency": {
+                    "abbrev": "NASA"
+                },
+                "profile_image_thumbnail": null
+            }
+        ]
+    }
+}
