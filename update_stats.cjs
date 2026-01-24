@@ -22,6 +22,11 @@ async function updateStats() {
             axios.get(`${BASE_URL}/astronaut/?in_space=true&limit=50`)
         ]);
 
+        // Filter out non-human entries (like Starman mannequin)
+        const realHumans = humansInSpace.data.results.filter(
+            person => person.type?.name !== 'Non-Human'
+        );
+
         const snapshot = {
             lastUpdated: new Date().toISOString(),
             launches: {
@@ -32,14 +37,14 @@ async function updateStats() {
                 list: allAttempts.data.results
             },
             humans: {
-                total: humansInSpace.data.count,
-                people: humansInSpace.data.results
+                total: realHumans.length,
+                people: realHumans
             }
         };
 
         fs.writeFileSync(SNAPSHOT_PATH, JSON.stringify(snapshot, null, 2));
         console.log(`✅ Successfully updated ${SNAPSHOT_PATH}`);
-        console.log(`✨ Captured ${snapshot.launches.list.length} launches and ${snapshot.humans.people.length} astronauts.`);
+        console.log(`✨ Captured ${snapshot.launches.list.length} launches and ${snapshot.humans.people.length} humans in space.`);
     } catch (error) {
         if (error.response && error.response.status === 429) {
             console.error('❌ API Rate Limit Exceeded. Try again in a few minutes.');

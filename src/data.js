@@ -2,6 +2,11 @@ import { Rocket, Users, Globe, Orbit, Satellite, Calendar } from 'lucide-react';
 
 import snapshot from './api-snapshot.json';
 
+// Filter out non-human entries (like Starman mannequin)
+const realHumans = snapshot.humans.people.filter(
+  person => person.type?.name !== 'Non-Human'
+);
+
 export const spaceStats = [
   {
     id: 'launches',
@@ -21,9 +26,9 @@ export const spaceStats = [
     title: 'Human Spaceflight',
     icon: Users,
     stats: [
-      { label: 'Humans Launched (2026)', value: '0', highlight: true },
+      { label: 'Humans Launched (2026)', value: '6', highlight: true, note: 'NS-38 (Jan 22)' },
       { label: 'Orbital Travelers', value: '0' },
-      { label: 'Suborbital Travelers', value: '0' },
+      { label: 'Suborbital Travelers', value: '6' },
       { label: '2025 Total (Ref)', value: '70', secondary: true }
     ]
   },
@@ -32,12 +37,12 @@ export const spaceStats = [
     title: 'Humans in Space',
     icon: Globe,
     stats: [
-      { label: 'Currently in Space', value: snapshot.humans.total, highlight: true, note: 'ISS Expedition 74' },
-      { label: 'On ISS', value: snapshot.humans.total },
-      { label: 'Crew-12 Launch', value: 'Feb 15' },
+      { label: 'Currently in Space', value: realHumans.length, highlight: true, note: 'ISS & Tiangong' },
+      { label: 'On ISS', value: realHumans.filter(p => p.agency?.abbrev === 'NASA' || p.agency?.abbrev === 'RFSA').length },
+      { label: 'On Tiangong', value: realHumans.filter(p => p.agency?.abbrev === 'CNSA').length },
       { label: '2025 Peak', value: '20', secondary: true }
     ],
-    data: snapshot.humans.people
+    data: realHumans
   },
   {
     id: 'launch-vehicles',
