@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-01-24T01:56:24.819Z",
+  "lastUpdated": "2026-01-31T01:50:46.108Z",
   "launches": {
-    "total": 19,
-    "success": 16,
+    "total": 24,
+    "success": 21,
     "failure": 3,
-    "spacex": 9,
+    "spacex": 13,
     "list": [
       {
         "id": "63ddb2d1-8369-4681-8a50-e95819150382",
@@ -651,60 +651,182 @@
         "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_shepard_lif_image_20240621062033.jpeg",
         "infographic": null,
         "type": "list"
+      },
+      {
+        "id": "90a7b825-ea15-41a2-a9d3-eb532a37e499",
+        "url": "https://ll.thespacedevs.com/2.2.0/launch/90a7b825-ea15-41a2-a9d3-eb532a37e499/",
+        "slug": "falcon-9-block-5-starlink-group-17-20",
+        "name": "Falcon 9 Block 5 | Starlink Group 17-20",
+        "status": {
+          "id": 3,
+          "name": "Launch Successful",
+          "abbrev": "Success",
+          "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+        },
+        "last_updated": "2026-01-28T01:43:36Z",
+        "net": "2026-01-25T17:30:39Z",
+        "net_precision": {
+          "id": 0,
+          "name": "Second",
+          "abbrev": "SEC",
+          "description": "The T-0 is accurate to the second."
+        },
+        "window_end": "2026-01-25T19:17:00Z",
+        "window_start": "2026-01-25T15:17:00Z",
+        "lsp_name": "SpaceX",
+        "mission": "Starlink Group 17-20",
+        "mission_type": "Communications",
+        "pad": "Space Launch Complex 4E",
+        "location": "Vandenberg SFB, CA, USA",
+        "landing": null,
+        "landing_success": null,
+        "launcher": null,
+        "orbit": null,
+        "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+        "infographic": null,
+        "type": "list"
+      },
+      {
+        "id": "98f70f28-397a-4c0d-aeb2-e7f8a88e0323",
+        "url": "https://ll.thespacedevs.com/2.2.0/launch/98f70f28-397a-4c0d-aeb2-e7f8a88e0323/",
+        "slug": "falcon-9-block-5-gps-iii-sv09",
+        "name": "Falcon 9 Block 5 | GPS III SV09",
+        "status": {
+          "id": 3,
+          "name": "Launch Successful",
+          "abbrev": "Success",
+          "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+        },
+        "last_updated": "2026-01-28T18:32:41Z",
+        "net": "2026-01-28T04:53:16Z",
+        "net_precision": {
+          "id": 0,
+          "name": "Second",
+          "abbrev": "SEC",
+          "description": "The T-0 is accurate to the second."
+        },
+        "window_end": "2026-01-28T04:53:16Z",
+        "window_start": "2026-01-28T04:38:00Z",
+        "lsp_name": "SpaceX",
+        "mission": "GPS III SV09",
+        "mission_type": "Navigation",
+        "pad": "Space Launch Complex 40",
+        "location": "Cape Canaveral SFS, FL, USA",
+        "landing": null,
+        "landing_success": null,
+        "launcher": null,
+        "orbit": null,
+        "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20260128051232.jpg",
+        "infographic": null,
+        "type": "list"
+      },
+      {
+        "id": "5b32bfe3-2816-4a86-bf82-710d0b3660d2",
+        "url": "https://ll.thespacedevs.com/2.2.0/launch/5b32bfe3-2816-4a86-bf82-710d0b3660d2/",
+        "slug": "falcon-9-block-5-starlink-group-17-19",
+        "name": "Falcon 9 Block 5 | Starlink Group 17-19",
+        "status": {
+          "id": 3,
+          "name": "Launch Successful",
+          "abbrev": "Success",
+          "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+        },
+        "last_updated": "2026-01-29T19:59:08Z",
+        "net": "2026-01-29T17:53:20Z",
+        "net_precision": {
+          "id": 0,
+          "name": "Second",
+          "abbrev": "SEC",
+          "description": "The T-0 is accurate to the second."
+        },
+        "window_end": "2026-01-29T19:17:00Z",
+        "window_start": "2026-01-29T15:17:00Z",
+        "lsp_name": "SpaceX",
+        "mission": "Starlink Group 17-19",
+        "mission_type": "Communications",
+        "pad": "Space Launch Complex 4E",
+        "location": "Vandenberg SFB, CA, USA",
+        "landing": null,
+        "landing_success": null,
+        "launcher": null,
+        "orbit": null,
+        "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+        "infographic": null,
+        "type": "list"
+      },
+      {
+        "id": "3639c1c6-1f92-4836-9eeb-fd50ef398550",
+        "url": "https://ll.thespacedevs.com/2.2.0/launch/3639c1c6-1f92-4836-9eeb-fd50ef398550/",
+        "slug": "electron-bridging-the-swarm-neonsat-1a",
+        "name": "Electron | Bridging The Swarm (NeonSat-1A)",
+        "status": {
+          "id": 3,
+          "name": "Launch Successful",
+          "abbrev": "Success",
+          "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+        },
+        "last_updated": "2026-01-30T12:05:43Z",
+        "net": "2026-01-30T01:21:39Z",
+        "net_precision": {
+          "id": 0,
+          "name": "Second",
+          "abbrev": "SEC",
+          "description": "The T-0 is accurate to the second."
+        },
+        "window_end": "2026-01-30T02:00:00Z",
+        "window_start": "2026-01-29T22:45:00Z",
+        "lsp_name": "Rocket Lab",
+        "mission": "Bridging The Swarm (NeonSat-1A)",
+        "mission_type": "Earth Science",
+        "pad": "Rocket Lab Launch Complex 1A",
+        "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+        "landing": null,
+        "landing_success": null,
+        "launcher": null,
+        "orbit": null,
+        "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_on_the_image_20251215193751.jpg",
+        "infographic": null,
+        "type": "list"
+      },
+      {
+        "id": "5d4e8970-46cd-4c5e-9b9b-391eeb0700a6",
+        "url": "https://ll.thespacedevs.com/2.2.0/launch/5d4e8970-46cd-4c5e-9b9b-391eeb0700a6/",
+        "slug": "falcon-9-block-5-starlink-group-6-101",
+        "name": "Falcon 9 Block 5 | Starlink Group 6-101",
+        "status": {
+          "id": 3,
+          "name": "Launch Successful",
+          "abbrev": "Success",
+          "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+        },
+        "last_updated": "2026-01-30T13:11:39Z",
+        "net": "2026-01-30T07:22:00Z",
+        "net_precision": {
+          "id": 0,
+          "name": "Second",
+          "abbrev": "SEC",
+          "description": "The T-0 is accurate to the second."
+        },
+        "window_end": "2026-01-30T08:00:00Z",
+        "window_start": "2026-01-30T04:00:00Z",
+        "lsp_name": "SpaceX",
+        "mission": "Starlink Group 6-101",
+        "mission_type": "Communications",
+        "pad": "Space Launch Complex 40",
+        "location": "Cape Canaveral SFS, FL, USA",
+        "landing": null,
+        "landing_success": null,
+        "launcher": null,
+        "orbit": null,
+        "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+        "infographic": null,
+        "type": "list"
       }
     ]
   },
   "humans": {
-    "total": 7,
+    "total": 6,
     "people": [
-      {
-        "id": 638,
-        "url": "https://ll.thespacedevs.com/2.2.0/astronaut/638/",
-        "name": "Starman",
-        "status": {
-          "id": 1,
-          "name": "Active"
-        },
-        "type": {
-          "id": 6,
-          "name": "Non-Human"
-        },
-        "in_space": true,
-        "time_in_space": "P2907DT6H58M37S",
-        "eva_time": "P0D",
-        "age": null,
-        "date_of_birth": null,
-        "date_of_death": null,
-        "nationality": "Earthling",
-        "bio": "\"Starman\" is a mannequin dressed in a spacesuit occupying the driver's seat of Elon Musk's Tesla Roadster, launched to an heliocentric orbit on Falcon Heavy's inaugural launch.",
-        "twitter": "https://twitter.com/Tesla_Starman",
-        "instagram": "https://www.instagram.com/starman_by_spacex/",
-        "wiki": "https://en.wikipedia.org/wiki/Elon_Musk%27s_Tesla_Roadster",
-        "agency": {
-          "id": 121,
-          "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-          "name": "SpaceX",
-          "featured": true,
-          "type": "Commercial",
-          "country_code": "USA",
-          "abbrev": "SpX",
-          "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
-          "administrator": "CEO: Elon Musk",
-          "founding_year": "2002",
-          "launchers": "Falcon | Starship",
-          "spacecraft": "Dragon",
-          "parent": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
-          "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png"
-        },
-        "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starman_image_20190307220126.jpg",
-        "profile_image_thumbnail": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190247.jpeg",
-        "flights_count": 1,
-        "landings_count": 0,
-        "spacewalks_count": 0,
-        "last_flight": "2018-02-06T20:45:00Z",
-        "first_flight": "2018-02-06T20:45:00Z"
-      },
       {
         "id": 647,
         "url": "https://ll.thespacedevs.com/2.2.0/astronaut/647/",
@@ -718,7 +840,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P241DT17H25M49S",
+        "time_in_space": "P248DT17H44M17S",
         "eva_time": "PT6H47M",
         "age": 42,
         "date_of_birth": "1983-08-23",
@@ -766,7 +888,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P56DT18H17M53S",
+        "time_in_space": "P63DT18H36M11S",
         "eva_time": "P0D",
         "age": 43,
         "date_of_birth": "1983-01-01",
@@ -814,7 +936,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P269DT19H26M31S",
+        "time_in_space": "P276DT19H44M53S",
         "eva_time": "P1DT9H23M",
         "age": 49,
         "date_of_birth": "1976-11-01",
@@ -862,7 +984,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P56DT18H20M24S",
+        "time_in_space": "P63DT18H39M2S",
         "eva_time": "P0D",
         "age": 40,
         "date_of_birth": "1985-03-15",
@@ -910,7 +1032,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P83DT12H4M7S",
+        "time_in_space": "P90DT12H22M50S",
         "eva_time": "PT8H17M",
         "age": 32,
         "date_of_birth": "1993-10-01",
@@ -958,7 +1080,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P83DT12H4M8S",
+        "time_in_space": "P90DT12H22M51S",
         "eva_time": "P0D",
         "age": 39,
         "date_of_birth": "1986-04-01",
