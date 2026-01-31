@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-01-31T01:50:46.108Z",
+  "lastUpdated": "2026-01-31T12:43:22.606Z",
   "launches": {
-    "total": 24,
-    "success": 21,
+    "total": 25,
+    "success": 22,
     "failure": 3,
     "spacex": 13,
     "list": [
@@ -821,6 +821,40 @@
         "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
         "infographic": null,
         "type": "list"
+      },
+      {
+        "id": "5575fc3c-11e9-48e4-ab89-ac7a3e2ef32a",
+        "url": "https://ll.thespacedevs.com/2.2.0/launch/5575fc3c-11e9-48e4-ab89-ac7a3e2ef32a/",
+        "slug": "long-march-2c-alsat-3b",
+        "name": "Long March 2C | AlSat 3B",
+        "status": {
+          "id": 3,
+          "name": "Launch Successful",
+          "abbrev": "Success",
+          "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+        },
+        "last_updated": "2026-01-31T04:31:02Z",
+        "net": "2026-01-31T04:01:00Z",
+        "net_precision": {
+          "id": 1,
+          "name": "Minute",
+          "abbrev": "MIN",
+          "description": "The T-0 is accurate to the minute."
+        },
+        "window_end": "2026-01-31T04:25:00Z",
+        "window_start": "2026-01-31T03:54:00Z",
+        "lsp_name": "China Aerospace Science and Technology Corporation",
+        "mission": "AlSat 3B",
+        "mission_type": "Earth Science",
+        "pad": "Launch Area 94 (SLS-2 / 603)",
+        "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+        "landing": null,
+        "landing_success": null,
+        "launcher": null,
+        "orbit": null,
+        "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_2_image_20230803100234.jpeg",
+        "infographic": null,
+        "type": "list"
       }
     ]
   },
@@ -840,7 +874,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P248DT17H44M17S",
+        "time_in_space": "P249DT17H49M31S",
         "eva_time": "PT6H47M",
         "age": 42,
         "date_of_birth": "1983-08-23",
@@ -888,7 +922,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P63DT18H36M11S",
+        "time_in_space": "P64DT18H41M26S",
         "eva_time": "P0D",
         "age": 43,
         "date_of_birth": "1983-01-01",
@@ -936,7 +970,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P276DT19H44M53S",
+        "time_in_space": "P277DT19H50M13S",
         "eva_time": "P1DT9H23M",
         "age": 49,
         "date_of_birth": "1976-11-01",
@@ -984,7 +1018,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P63DT18H39M2S",
+        "time_in_space": "P64DT18H44M21S",
         "eva_time": "P0D",
         "age": 40,
         "date_of_birth": "1985-03-15",
@@ -1032,7 +1066,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P90DT12H22M50S",
+        "time_in_space": "P91DT12H28M8S",
         "eva_time": "PT8H17M",
         "age": 32,
         "date_of_birth": "1993-10-01",
@@ -1080,7 +1114,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P90DT12H22M51S",
+        "time_in_space": "P91DT12H28M9S",
         "eva_time": "P0D",
         "age": 39,
         "date_of_birth": "1986-04-01",
