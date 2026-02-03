@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-03T02:00:58.567Z",
+  "lastUpdated": "2026-02-03T12:56:46.377Z",
   "launches": {
     "total": 26,
     "success": 23,
@@ -908,7 +908,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P251DT17H31M58S",
+        "time_in_space": "P252DT16H46M49S",
         "eva_time": "PT6H47M",
         "age": 42,
         "date_of_birth": "1983-08-23",
@@ -956,7 +956,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P66DT18H23M42S",
+        "time_in_space": "P67DT17H38M20S",
         "eva_time": "P0D",
         "age": 43,
         "date_of_birth": "1983-01-01",
@@ -1004,7 +1004,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P279DT19H32M21S",
+        "time_in_space": "P280DT18H46M49S",
         "eva_time": "P1DT9H23M",
         "age": 49,
         "date_of_birth": "1976-11-01",
@@ -1052,7 +1052,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P66DT18H26M10S",
+        "time_in_space": "P67DT17H40M29S",
         "eva_time": "P0D",
         "age": 40,
         "date_of_birth": "1985-03-15",
@@ -1100,7 +1100,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P93DT12H9M50S",
+        "time_in_space": "P94DT11H24M9S",
         "eva_time": "PT8H17M",
         "age": 32,
         "date_of_birth": "1993-10-01",
@@ -1148,7 +1148,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P93DT12H9M51S",
+        "time_in_space": "P94DT11H24M10S",
         "eva_time": "P0D",
         "age": 39,
         "date_of_birth": "1986-04-01",
