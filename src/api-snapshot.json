@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-02-05T12:59:02.257Z",
+  "lastUpdated": "2026-02-06T01:56:36.110Z",
   "launches": {
-    "total": 26,
-    "success": 23,
+    "total": 27,
+    "success": 24,
     "failure": 3,
     "spacex": 14,
     "list": [
@@ -887,6 +887,40 @@
         "launcher": null,
         "orbit": null,
         "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+        "infographic": null,
+        "type": "list"
+      },
+      {
+        "id": "726f22bb-8a58-482e-82e8-b2a88e08fc7e",
+        "url": "https://ll.thespacedevs.com/2.2.0/launch/726f22bb-8a58-482e-82e8-b2a88e08fc7e/",
+        "slug": "soyuz-21bfregat-m-kosmos-unknown-payload",
+        "name": "Soyuz 2.1b/Fregat-M | Kosmos (Unknown Payload)",
+        "status": {
+          "id": 3,
+          "name": "Launch Successful",
+          "abbrev": "Success",
+          "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+        },
+        "last_updated": "2026-02-05T23:17:54Z",
+        "net": "2026-02-05T18:59:00Z",
+        "net_precision": {
+          "id": 1,
+          "name": "Minute",
+          "abbrev": "MIN",
+          "description": "The T-0 is accurate to the minute."
+        },
+        "window_end": "2026-02-05T22:00:00Z",
+        "window_start": "2026-02-05T15:00:00Z",
+        "lsp_name": "Russian Space Forces",
+        "mission": "Kosmos (Unknown Payload)",
+        "mission_type": "Government/Top Secret",
+        "pad": "43/4 (43R)",
+        "location": "Plesetsk Cosmodrome, Russian Federation",
+        "landing": null,
+        "landing_success": null,
+        "launcher": null,
+        "orbit": null,
+        "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
         "infographic": null,
         "type": "list"
       }
