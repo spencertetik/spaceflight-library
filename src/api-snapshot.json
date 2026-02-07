@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-02-07T01:53:11.189Z",
+  "lastUpdated": "2026-02-07T12:44:21.553Z",
   "launches": {
-    "total": 27,
-    "success": 24,
+    "total": 28,
+    "success": 25,
     "failure": 3,
     "spacex": 14,
     "list": [
@@ -901,7 +901,7 @@
           "abbrev": "Success",
           "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
         },
-        "last_updated": "2026-02-05T23:17:54Z",
+        "last_updated": "2026-02-07T07:48:17Z",
         "net": "2026-02-05T18:59:00Z",
         "net_precision": {
           "id": 1,
@@ -923,6 +923,40 @@
         "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
         "infographic": null,
         "type": "list"
+      },
+      {
+        "id": "a9fd7757-9a51-4607-845d-d830673c4486",
+        "url": "https://ll.thespacedevs.com/2.2.0/launch/a9fd7757-9a51-4607-845d-d830673c4486/",
+        "slug": "long-march-2fg-chinese-reusable-space-vehicle-4",
+        "name": "Long March 2F/G | Chinese Reusable Space Vehicle",
+        "status": {
+          "id": 3,
+          "name": "Launch Successful",
+          "abbrev": "Success",
+          "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+        },
+        "last_updated": "2026-02-07T07:21:39Z",
+        "net": "2026-02-07T03:57:00Z",
+        "net_precision": {
+          "id": 1,
+          "name": "Minute",
+          "abbrev": "MIN",
+          "description": "The T-0 is accurate to the minute."
+        },
+        "window_end": "2026-02-07T04:07:00Z",
+        "window_start": "2026-02-07T03:48:00Z",
+        "lsp_name": "China Aerospace Science and Technology Corporation",
+        "mission": "Chinese Reusable Space Vehicle",
+        "mission_type": "Government/Top Secret",
+        "pad": "Launch Area 91 (SLS-1 / 921)",
+        "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+        "landing": null,
+        "landing_success": null,
+        "launcher": null,
+        "orbit": null,
+        "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/shenzhou_22_lau_image_20251129175823.jpg",
+        "infographic": null,
+        "type": "list"
       }
     ]
   },
@@ -942,7 +976,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P255DT17H47M27S",
+        "time_in_space": "P256DT17H27M50S",
         "eva_time": "PT6H47M",
         "age": 42,
         "date_of_birth": "1983-08-23",
@@ -990,7 +1024,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P70DT18H39M20S",
+        "time_in_space": "P71DT18H19M40S",
         "eva_time": "P0D",
         "age": 43,
         "date_of_birth": "1983-01-01",
@@ -1038,7 +1072,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P283DT19H48M4S",
+        "time_in_space": "P284DT19H28M21S",
         "eva_time": "P1DT9H23M",
         "age": 49,
         "date_of_birth": "1976-11-01",
@@ -1086,7 +1120,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P70DT18H42M2S",
+        "time_in_space": "P71DT18H22M15S",
         "eva_time": "P0D",
         "age": 40,
         "date_of_birth": "1985-03-15",
@@ -1134,7 +1168,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P97DT12H25M52S",
+        "time_in_space": "P98DT12H5M59S",
         "eva_time": "PT8H17M",
         "age": 32,
         "date_of_birth": "1993-10-01",
@@ -1182,7 +1216,7 @@
           "name": "Government"
         },
         "in_space": true,
-        "time_in_space": "P97DT12H25M53S",
+        "time_in_space": "P98DT12H6M",
         "eva_time": "P0D",
         "age": 39,
         "date_of_birth": "1986-04-01",
